@@ -1,0 +1,25 @@
+{
+  "name": "ignite-app",
+  "version": "1.0.0",
+  "description": "desc",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lokesh903/my-namaste-reactjs.git"
+  },
+  "keywords": [
+    "rect"
+  ],
+  "author": "Lokesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lokesh903/my-namaste-reactjs/issues"
+  },
+  "homepage": "https://github.com/lokesh903/my-namaste-reactjs#readme",
+  "devDependencies": {
+    "parcel": "^2.11.0"
+  }
+}
