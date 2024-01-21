@@ -84,7 +84,7 @@ npm install --save
 ## Q: What is `Tree Shaking`?
 A: `Tree shaking` is process of removing the unwanted code that we do not use while developing the application.
 In computing, tree shaking is a dead code elimination technique that is applied when optimizing code.
-
+`link` https://medium.com/webpack/better-tree-shaking-with-deep-scope-analysis-a0b788c0ce77
 
 ## Q: What is `Hot Module Replacement`?
 A: `Hot Module Replacement (HMR)` exchanges, adds, or removes modules while an application is running, without a full reload. This can significantly speed up development in a few ways: Retain application state which is lost during a full reload.
@@ -93,11 +93,11 @@ A: `Hot Module Replacement (HMR)` exchanges, adds, or removes modules while an a
 ## Q: List down your favorite `5 superpowers of Parcel` and describe any 3 of them in your own words.
 A: `5 superpowers of Parcel`:
 * `HMR (Hot Module Replacement)` - adds, or removes modules while an application is running, without a full reload.
-* `File watcher algorithm` - File Watchers monitor directories on the file system and perform specific actions when desired files appear.
+* `File watcher algorithm` - File Watchers monitor directories on the file system and perform specific actions when desired files appear. parcel uses FWA to do HMR
 * `Minification` - Minification is the process of minimizing code and markup in your web pages and script files.
 * `Image optimization`
-* `Caching while development`
-
+* `Caching while development` - on consecutive rebuild it will take less time 
+* `code spliting` - Code splitting is a technique used in web development to split a large JavaScript bundle into smaller, more manageable chunks. The goal is to only load the JavaScript code that is necessary for the current page or component, rather than loading the entire application code upfront. This can lead to faster initial page loads and improved performance.
 
 ## Q: What is `.gitignore`? What should we `add and not add` into it?
 A: The `.gitignore file` is a text file that tells `Git` which files or folders to `ignore` in a project during `commit to the repository`.

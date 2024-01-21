@@ -2,8 +2,9 @@
   "name": "ignite-app",
   "version": "1.0.0",
   "description": "desc",
-  "main": "index.js",
   "scripts": {
+    "start":"npx parcel index.html",
+    "build":"npx parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -20,6 +21,14 @@
   },
   "homepage": "https://github.com/lokesh903/my-namaste-reactjs#readme",
   "devDependencies": {
-    "parcel": "^2.11.0"
-  }
+    "parcel": "^2.11.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist":[
+    "last 5 versions"
+  ]
 }
