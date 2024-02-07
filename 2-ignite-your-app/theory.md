@@ -73,7 +73,7 @@ such as, `parcel, webpack, vite, mocha`.
 `These packages` are `necessary only while you are developing your project`, not necessary on production.
 To save a dependency as a devDependency on installation we need to do, 
 ```
-npm install --save-dev
+npm install --save-dev or npm i -D
 ```
 instead of just,
 ```

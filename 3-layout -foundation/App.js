@@ -32,8 +32,10 @@ import ReactDOM from 'react-dom/client';
 
 
   const heading1 = <h1>Namste React</h1>
-  
+  const HeadingComponent = () => (
+    <h1>Functional component Heading</h1>
+  )
   // create root using createRoot
   const root = ReactDOM.createRoot(document.getElementById("root"));
   // passing react element inside root
-  root.render(heading1);
+  root.render(<HeadingComponent />);
