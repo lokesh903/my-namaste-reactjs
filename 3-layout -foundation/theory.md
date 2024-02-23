@@ -30,6 +30,24 @@ function greeting(user) {
   return <h1>{user}, How are you!!!</h1>;
 }
 ```
+## Q: Behind Scenes of jsx , how it works ?
+
+A: `Syntax Transformation`: JSX is not directly understood by browsers or JavaScript engines. Instead, it needs to be transpiled into regular JavaScript code. This transformation typically happens during the build process using a tool like Babel.
+
+`React.createElement() Invocation`: When you write JSX code, it gets transformed into a series of React.createElement() function calls. For example, this JSX code:
+
+```
+const name = 'John';
+const element = <div>Hello, {name}!</div>;
+```
+gets transformed into:
+```
+const name = 'John';
+const element = React.createElement('div', null, 'Hello, ', name, '!');
+```
+So, JSX essentially provides syntactic sugar for calling React.createElement().
+refrence-: https://babeljs.io/repl#
+
 
 
 ## Q: Role of `type` attribute in script tag? What options can I use there?
